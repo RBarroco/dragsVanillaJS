@@ -1,0 +1,97 @@
+#container {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+}
+
+.a {
+  height: 150px;
+  width: 150px;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  background-color: grey;
+}
+
+.b {
+  height: 150px;
+  width: 150px;
+  top: 10px;
+  left: 170px;
+  position: absolute;
+  background-color: grey;
+}
+
+.c {
+  height: 150px;
+  width: 150px;
+  top: 10px;
+  left: 330px;
+  position: absolute;
+  background-color: grey;
+}
+
+.d {
+  height: 150px;
+  width: 150px;
+  top: 170px;
+  left: 10px;
+  position: absolute;
+  background-color: grey;
+}
+
+.e {
+  height: 150px;
+  width: 150px;
+  left: 170px;
+  top: 170px;
+  position: absolute;
+  background-color: grey;
+}
+
+.f {
+  height: 150px;
+  width: 150px;
+  left: 330px;
+  top: 170px;
+  position: absolute;
+  background-color: grey;
+}
+
+.g {
+  height: 150px;
+  width: 150px;
+  left: 10px;
+  top: 330px;
+  position: absolute;
+  background-color: grey;
+}
+
+.h {
+  height: 150px;
+  width: 150px;
+  left: 170px;
+  top: 330px;
+  position: absolute;
+  background-color: grey;
+}
+
+.i {
+  height: 150px;
+  width: 150px;
+  left: 330px;
+  top: 330px;
+  position: absolute;
+  background-color: grey;
+}
+/* without the position absolute there is no left or top */
+.dragging {
+  opacity: 0.25;
+}
+.hover {
+  background-color: rgba(0, 191, 165, 0.04);
+}
+
+.backgrounder {
+  background-color: blue;
+}
